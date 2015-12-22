@@ -84,7 +84,7 @@ footer {
 	padding: 20px;
 	height: 600px;
 	background-color: #033048;
-	background-image: url(http://i.imgur.com/LmUguRt.jpg);
+	background-image: url('../images/header_bg.jpg');
 	background-size: cover;
 }
 
@@ -121,7 +121,6 @@ footer {
 .hero h2 {
 	margin-bottom: 100px;
 	text-align: center;
-	/*Assuming this is probably not the best habit to get into (repeatedly overriding global styles, that is)*/
 }
 
 .benefits {
@@ -137,8 +136,8 @@ footer {
 }
 
 .benefits-container {
-	width: 40%;
-	margin-left: 100px;
+	max-width: 560px;
+	margin: 0 auto;
 }
 
 .benefits h2 {
@@ -147,13 +146,12 @@ footer {
 
 .quote {
 	background: #033048;
-	background-image: url(http://i.imgur.com/Rz2HFCn.jpg);
-	/*I couldn't get the relative URL to work - this was panic mode*/
+	background-image: url('../images/testimonial_bg.jpg');
 	background-size: cover;
 }
 
 .quote-container {
-	width: 50%;
+	max-width: 550px;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
@@ -165,8 +163,6 @@ footer {
 .sign-up {
 	padding: 30px;
 	background: #f9e42e;
-	margin-bottom: -20px;
-	/*This negative margin thing kind of feels hacky*/
 }
 
 .button-secondary {
@@ -192,6 +188,7 @@ footer h1 {
 	color: #f9e42e;
 	text-align: center;
 	padding-top: 30px;
+	margin-top: 0;
 }
 
 footer p {
